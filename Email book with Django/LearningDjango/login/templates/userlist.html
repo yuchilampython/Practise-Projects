@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User List</title>
+</head>
+<body>
+<a href="/signup/">Add new user</a>
+  <table>
+    <tr>
+      <th>Firstname</th>
+      <th>Lastname</th>
+      <th>Email</th>
+    </tr>
+    {% for user in user_list %}
+    <tr>
+      <td>{{user.firstname}}</td>
+      <td>{{user.lastname}}</td>
+      <td>{{user.email}}</td>
+      <td>
+        <a href="/delete?get_id={{user.id}}">Delete</a>
+      </td>
+    </tr>
+    {% endfor %}
+  </table>
+
+</body>
+</html>
