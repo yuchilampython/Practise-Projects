@@ -2,7 +2,7 @@
 
 
 ### What have I done:
-![veg_org_api_diagram](https://raw.githubusercontent.com/yuchilampython/Side-Projects/main/veg_org_api/veg_org_api_diagram.PNG)
+![veg_org_api_diagram](https://raw.githubusercontent.com/yuchilampython/Practise-Projects/main/veg_org_api%20with%20PostgreSQL/veg_org_api_diagram.PNG)
 - Design the database (veg_org_api_diagram.png)
 - Assign an ID number to all kinds of vegetable (all_veg_type.xlsx)
 - Import all_veg_type.xlsx into postgresql database
